@@ -2,23 +2,27 @@ PODS:
   - Alamofire (5.10.1)
   - HandlersKit (1.0.0)
   - SnapKit (5.7.1)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - Alamofire
   - HandlersKit
   - SnapKit
+  - YYText
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - HandlersKit
     - SnapKit
+    - YYText
 
 SPEC CHECKSUMS:
   Alamofire: 840d2a1ad82355b536ec6ba5f97e5bfa54600ca3
   HandlersKit: 7702c1b098238baf06dd3384ced2c2114c4ebc81
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: d1c35429c413affabefd323c3ff6514dd8491594
+PODFILE CHECKSUM: f51d0e6ebbaaec3a3434d9c3cd702b30ee71162b
 
 COCOAPODS: 1.16.2

@@ -6,9 +6,10 @@ target 'moviemate-ios' do
   use_frameworks!
 
   # Pods for MovieMate
-  pod 'SnapKit'
-  pod 'HandlersKit'
   pod 'Alamofire'
+  pod 'HandlersKit'
+  pod 'SnapKit'
+  pod 'YYText'
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|

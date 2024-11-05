@@ -9,7 +9,7 @@ target 'moviemate-ios' do
   pod 'Alamofire'
   pod 'HandlersKit'
   pod 'SnapKit'
-  pod 'YYText'
+  pod 'YYText', :inhibit_warnings => true
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|

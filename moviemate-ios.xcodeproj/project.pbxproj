@@ -13,6 +13,10 @@
 		A72DFBD72CDAA42D00AF0C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD62CDAA42D00AF0C8A /* ViewController.swift */; };
 		A72DFBDC2CDAA42E00AF0C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72DFBDB2CDAA42E00AF0C8A /* Assets.xcassets */; };
 		A72DFBDF2CDAA42E00AF0C8A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A72DFBDE2CDAA42E00AF0C8A /* Base */; };
+		A76FDF2E2CDAA88900F0786B /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FDF2D2CDAA88900F0786B /* WelcomePageViewController.swift */; };
+		A76FDF312CDAA8A900F0786B /* WelcomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FDF302CDAA8A900F0786B /* WelcomePageViewModel.swift */; };
+		A76FDF332CDAA8C100F0786B /* WelcomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FDF322CDAA8C100F0786B /* WelcomePageView.swift */; };
+		A7A34BC32CDAA9A4001C42B7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A34BC22CDAA9A4001C42B7 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		A72DFBDB2CDAA42E00AF0C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72DFBDE2CDAA42E00AF0C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A72DFBE02CDAA42E00AF0C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76FDF2D2CDAA88900F0786B /* WelcomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewController.swift; sourceTree = "<group>"; };
+		A76FDF302CDAA8A900F0786B /* WelcomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageViewModel.swift; sourceTree = "<group>"; };
+		A76FDF322CDAA8C100F0786B /* WelcomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomePageView.swift; sourceTree = "<group>"; };
+		A7A34BC22CDAA9A4001C42B7 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +72,31 @@
 				A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */,
 				A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */,
 				A72DFBD62CDAA42D00AF0C8A /* ViewController.swift */,
+				A7A34BC42CDAA9D5001C42B7 /* Utils */,
+				A76FDF2F2CDAA88C00F0786B /* WelcomePage */,
 				A72DFBDB2CDAA42E00AF0C8A /* Assets.xcassets */,
 				A72DFBDD2CDAA42E00AF0C8A /* LaunchScreen.storyboard */,
 				A72DFBE02CDAA42E00AF0C8A /* Info.plist */,
 			);
 			path = "moviemate-ios";
+			sourceTree = "<group>";
+		};
+		A76FDF2F2CDAA88C00F0786B /* WelcomePage */ = {
+			isa = PBXGroup;
+			children = (
+				A76FDF2D2CDAA88900F0786B /* WelcomePageViewController.swift */,
+				A76FDF302CDAA8A900F0786B /* WelcomePageViewModel.swift */,
+				A76FDF322CDAA8C100F0786B /* WelcomePageView.swift */,
+			);
+			path = WelcomePage;
+			sourceTree = "<group>";
+		};
+		A7A34BC42CDAA9D5001C42B7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7A34BC22CDAA9A4001C42B7 /* Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		BC2A5615FA3E0FC319EC39F7 /* Frameworks */ = {
@@ -85,7 +113,6 @@
 				83DEED8B049CA55F706FE94B /* Pods-moviemate-ios.debug.xcconfig */,
 				0971F5C9D282B1FA281C820F /* Pods-moviemate-ios.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +232,10 @@
 			files = (
 				A72DFBD72CDAA42D00AF0C8A /* ViewController.swift in Sources */,
 				A72DFBD32CDAA42D00AF0C8A /* AppDelegate.swift in Sources */,
+				A76FDF332CDAA8C100F0786B /* WelcomePageView.swift in Sources */,
+				A7A34BC32CDAA9A4001C42B7 /* Utils.swift in Sources */,
+				A76FDF2E2CDAA88900F0786B /* WelcomePageViewController.swift in Sources */,
+				A76FDF312CDAA8A900F0786B /* WelcomePageViewModel.swift in Sources */,
 				A72DFBD52CDAA42D00AF0C8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +382,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L3Y55SM2AA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "moviemate-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -384,6 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = L3Y55SM2AA;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "moviemate-ios/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

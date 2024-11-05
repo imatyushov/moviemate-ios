@@ -10,7 +10,6 @@
 		8D65B6B6E0AD590AEE4AFFA1 /* Pods_moviemate_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D031F686DC5808AA4EC3C0 /* Pods_moviemate_ios.framework */; };
 		A72DFBD32CDAA42D00AF0C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */; };
 		A72DFBD52CDAA42D00AF0C8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */; };
-		A72DFBD72CDAA42D00AF0C8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD62CDAA42D00AF0C8A /* ViewController.swift */; };
 		A72DFBDC2CDAA42E00AF0C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72DFBDB2CDAA42E00AF0C8A /* Assets.xcassets */; };
 		A72DFBDF2CDAA42E00AF0C8A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A72DFBDE2CDAA42E00AF0C8A /* Base */; };
 		A76FDF2E2CDAA88900F0786B /* WelcomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76FDF2D2CDAA88900F0786B /* WelcomePageViewController.swift */; };
@@ -28,7 +27,6 @@
 		A72DFBCF2CDAA42D00AF0C8A /* moviemate-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moviemate-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A72DFBD62CDAA42D00AF0C8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A72DFBDB2CDAA42E00AF0C8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A72DFBDE2CDAA42E00AF0C8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A72DFBE02CDAA42E00AF0C8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			children = (
 				A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */,
 				A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */,
-				A72DFBD62CDAA42D00AF0C8A /* ViewController.swift */,
 				A7A34BC92CDAAB18001C42B7 /* Navigation */,
 				A7A34BC42CDAA9D5001C42B7 /* Utils */,
 				A76FDF2F2CDAA88C00F0786B /* WelcomePage */,
@@ -245,7 +242,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7A34BC62CDAAAF0001C42B7 /* Router.swift in Sources */,
-				A72DFBD72CDAA42D00AF0C8A /* ViewController.swift in Sources */,
 				A72DFBD32CDAA42D00AF0C8A /* AppDelegate.swift in Sources */,
 				A76FDF332CDAA8C100F0786B /* WelcomePageView.swift in Sources */,
 				A7A34BC32CDAA9A4001C42B7 /* Utils.swift in Sources */,

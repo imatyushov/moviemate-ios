@@ -11,7 +11,11 @@ import UIKit
 final class WelcomePageViewModel {
     weak var vc: UIViewController?
 
-    func moveToCreateLobbyPage() {}
+    func moveToCreateLobbyPage() {
+        Router.shared.navigate(in: vc?.navigationController, to: .createLobbyPage)
+    }
 
-    func moveToJoinLobbyPage() {}
+    func moveToJoinLobbyPage() {
+        Router.shared.navigate(in: vc?.navigationController, to: .joinLobbyPage)
+    }
 }

@@ -7,6 +7,7 @@ target 'moviemate-ios' do
 
   # Pods for MovieMate
   pod 'Alamofire'
+  pod 'CombineCocoa'
   pod 'HandlersKit'
   pod 'SnapKit'
   pod 'YYText', :inhibit_warnings => true

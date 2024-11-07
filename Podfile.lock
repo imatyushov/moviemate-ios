@@ -5,6 +5,7 @@ PODS:
   - CombineCocoa (0.4.1)
   - FLEX (5.22.10)
   - HandlersKit (1.0.0)
+  - Shuffle-iOS (0.5.0)
   - SnapKit (5.7.1)
   - YYText (1.0.7)
 
@@ -14,6 +15,7 @@ DEPENDENCIES:
   - CombineCocoa
   - FLEX
   - HandlersKit
+  - Shuffle-iOS
   - SnapKit
   - YYText
 
@@ -24,6 +26,7 @@ SPEC REPOS:
     - CombineCocoa
     - FLEX
     - HandlersKit
+    - Shuffle-iOS
     - SnapKit
     - YYText
 
@@ -33,9 +36,10 @@ SPEC CHECKSUMS:
   CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
   FLEX: f21ee4f498eed3f8a1eded66b21939fd3b7a22ce
   HandlersKit: 7702c1b098238baf06dd3384ced2c2114c4ebc81
+  Shuffle-iOS: ff33658fb1e5eebd6a4724c156473e63754be9cb
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: f012bb37bede55c0fd55c6f8ead595f518115541
+PODFILE CHECKSUM: 34d09d6e89675c854893c236b97fb44b8d492580
 
 COCOAPODS: 1.15.2

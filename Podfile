@@ -10,6 +10,7 @@ target 'moviemate-ios' do
   pod 'AlamofireImage'
   pod 'CombineCocoa'
   pod 'HandlersKit'
+  pod 'Shuffle-iOS'
   pod 'SnapKit'
   pod 'YYText', :inhibit_warnings => true
   pod 'FLEX', :configurations => ['Debug']

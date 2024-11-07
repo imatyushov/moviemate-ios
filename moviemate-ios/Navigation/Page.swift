@@ -12,6 +12,8 @@ enum Page {
     case createLobbyPage
     case joinLobbyPage
     case waitingPage(WaitingPageViewController.WaitingType)
+    case deckPage
+    case resultPage(ResultPageViewModel.Result)
 }
 
 extension Page {
@@ -24,6 +26,10 @@ extension Page {
         case .joinLobbyPage: LobbyPageViewController(with: .init(action: .join))
 
         case let .waitingPage(type): WaitingPageViewController(type: type)
+
+        case .deckPage: DeckPageViewController()
+
+        case let .resultPage(result): ResultPageViewController(with: .init(result: result))
         }
     }
 }

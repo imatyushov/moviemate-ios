@@ -26,6 +26,9 @@
 		A72B41AE2CDD005600CAE5D1 /* MovieInfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41A62CDD005600CAE5D1 /* MovieInfoLabel.swift */; };
 		A72B41AF2CDD005600CAE5D1 /* MovieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41A82CDD005600CAE5D1 /* MovieCardView.swift */; };
 		A72B41B02CDD005600CAE5D1 /* MovieCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41A92CDD005600CAE5D1 /* MovieCardViewModel.swift */; };
+		A72B41B52CDD2DA300CAE5D1 /* ResultPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B12CDD2DA300CAE5D1 /* ResultPageView.swift */; };
+		A72B41B62CDD2DA300CAE5D1 /* ResultPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B22CDD2DA300CAE5D1 /* ResultPageViewController.swift */; };
+		A72B41B72CDD2DA300CAE5D1 /* ResultPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41B32CDD2DA300CAE5D1 /* ResultPageViewModel.swift */; };
 		A72DFBD32CDAA42D00AF0C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */; };
 		A72DFBD52CDAA42D00AF0C8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */; };
 		A72DFBDC2CDAA42E00AF0C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72DFBDB2CDAA42E00AF0C8A /* Assets.xcassets */; };
@@ -63,6 +66,9 @@
 		A72B41A62CDD005600CAE5D1 /* MovieInfoLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieInfoLabel.swift; sourceTree = "<group>"; };
 		A72B41A82CDD005600CAE5D1 /* MovieCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCardView.swift; sourceTree = "<group>"; };
 		A72B41A92CDD005600CAE5D1 /* MovieCardViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCardViewModel.swift; sourceTree = "<group>"; };
+		A72B41B12CDD2DA300CAE5D1 /* ResultPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultPageView.swift; sourceTree = "<group>"; };
+		A72B41B22CDD2DA300CAE5D1 /* ResultPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultPageViewController.swift; sourceTree = "<group>"; };
+		A72B41B32CDD2DA300CAE5D1 /* ResultPageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultPageViewModel.swift; sourceTree = "<group>"; };
 		A72DFBCF2CDAA42D00AF0C8A /* moviemate-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moviemate-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -152,6 +158,16 @@
 			path = Card;
 			sourceTree = "<group>";
 		};
+		A72B41B42CDD2DA300CAE5D1 /* ResultPage */ = {
+			isa = PBXGroup;
+			children = (
+				A72B41B12CDD2DA300CAE5D1 /* ResultPageView.swift */,
+				A72B41B22CDD2DA300CAE5D1 /* ResultPageViewController.swift */,
+				A72B41B32CDD2DA300CAE5D1 /* ResultPageViewModel.swift */,
+			);
+			path = ResultPage;
+			sourceTree = "<group>";
+		};
 		A72DFBC62CDAA42D00AF0C8A = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +189,7 @@
 		A72DFBD12CDAA42D00AF0C8A /* moviemate-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A72B41B42CDD2DA300CAE5D1 /* ResultPage */,
 				A72B419F2CDCFFCC00CAE5D1 /* DeckPage */,
 				A72B41972CDCFE3C00CAE5D1 /* Model */,
 				A72B418E2CDCFB5200CAE5D1 /* Networking */,
@@ -373,7 +390,9 @@
 				A72B41AC2CDD005600CAE5D1 /* MovieCardDescriptionViewController.swift in Sources */,
 				A72B418F2CDCFB5200CAE5D1 /* ApiClient.swift in Sources */,
 				A72B41902CDCFB5200CAE5D1 /* ApiError.swift in Sources */,
+				A72B41B62CDD2DA300CAE5D1 /* ResultPageViewController.swift in Sources */,
 				A72B41982CDCFE3C00CAE5D1 /* LobbyInfo.swift in Sources */,
+				A72B41B52CDD2DA300CAE5D1 /* ResultPageView.swift in Sources */,
 				A72B41882CDCFAE900CAE5D1 /* WaitingPageView.swift in Sources */,
 				A7A34BC82CDAAB03001C42B7 /* Page.swift in Sources */,
 				A72B41912CDCFB5200CAE5D1 /* AppState.swift in Sources */,
@@ -386,6 +405,7 @@
 				A72B41942CDCFBB000CAE5D1 /* UIKeyboard+SnapKit.swift in Sources */,
 				A72B41922CDCFB5200CAE5D1 /* PollingManager.swift in Sources */,
 				A76FDF312CDAA8A900F0786B /* WelcomePageViewModel.swift in Sources */,
+				A72B41B72CDD2DA300CAE5D1 /* ResultPageViewModel.swift in Sources */,
 				A72B41AB2CDD005600CAE5D1 /* MovieActionsView.swift in Sources */,
 				A72B41892CDCFAE900CAE5D1 /* WaitingPageViewController.swift in Sources */,
 				A72DFBD52CDAA42D00AF0C8A /* SceneDelegate.swift in Sources */,

@@ -7,10 +7,12 @@ target 'moviemate-ios' do
 
   # Pods for MovieMate
   pod 'Alamofire'
+  pod 'AlamofireImage'
   pod 'CombineCocoa'
   pod 'HandlersKit'
   pod 'SnapKit'
   pod 'YYText', :inhibit_warnings => true
+  pod 'FLEX', :configurations => ['Debug']
 
 post_install do |installer|
     installer.pods_project.targets.each do |target|

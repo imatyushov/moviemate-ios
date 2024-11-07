@@ -1,13 +1,18 @@
 PODS:
   - Alamofire (5.8.0)
+  - AlamofireImage (4.3.0):
+    - Alamofire (~> 5.8)
   - CombineCocoa (0.4.1)
+  - FLEX (5.22.10)
   - HandlersKit (1.0.0)
   - SnapKit (5.7.1)
   - YYText (1.0.7)
 
 DEPENDENCIES:
   - Alamofire
+  - AlamofireImage
   - CombineCocoa
+  - FLEX
   - HandlersKit
   - SnapKit
   - YYText
@@ -15,18 +20,22 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - AlamofireImage
     - CombineCocoa
+    - FLEX
     - HandlersKit
     - SnapKit
     - YYText
 
 SPEC CHECKSUMS:
   Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  AlamofireImage: 843953fa97bee5f561cf05d83abd759e590b068d
   CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  FLEX: f21ee4f498eed3f8a1eded66b21939fd3b7a22ce
   HandlersKit: 7702c1b098238baf06dd3384ced2c2114c4ebc81
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 62bdce84a2c673761d8fe2e2c2209427973ec077
+PODFILE CHECKSUM: f012bb37bede55c0fd55c6f8ead595f518115541
 
 COCOAPODS: 1.15.2

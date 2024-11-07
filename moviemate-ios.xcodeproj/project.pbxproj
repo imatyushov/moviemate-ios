@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8D65B6B6E0AD590AEE4AFFA1 /* Pods_moviemate_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D031F686DC5808AA4EC3C0 /* Pods_moviemate_ios.framework */; };
+		A72B41882CDCFAE900CAE5D1 /* WaitingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41852CDCFAE900CAE5D1 /* WaitingPageView.swift */; };
+		A72B41892CDCFAE900CAE5D1 /* WaitingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41862CDCFAE900CAE5D1 /* WaitingPageViewController.swift */; };
+		A72B418F2CDCFB5200CAE5D1 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B418A2CDCFB5200CAE5D1 /* ApiClient.swift */; };
+		A72B41902CDCFB5200CAE5D1 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B418B2CDCFB5200CAE5D1 /* ApiError.swift */; };
+		A72B41912CDCFB5200CAE5D1 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B418C2CDCFB5200CAE5D1 /* AppState.swift */; };
+		A72B41922CDCFB5200CAE5D1 /* PollingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B418D2CDCFB5200CAE5D1 /* PollingManager.swift */; };
+		A72B41942CDCFBB000CAE5D1 /* UIKeyboard+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41932CDCFBB000CAE5D1 /* UIKeyboard+SnapKit.swift */; };
+		A72B41982CDCFE3C00CAE5D1 /* LobbyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41952CDCFE3C00CAE5D1 /* LobbyInfo.swift */; };
+		A72B41992CDCFE3C00CAE5D1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41962CDCFE3C00CAE5D1 /* Movie.swift */; };
+		A72B419B2CDCFE6200CAE5D1 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B419A2CDCFE6200CAE5D1 /* AlertController.swift */; };
 		A72DFBD32CDAA42D00AF0C8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */; };
 		A72DFBD52CDAA42D00AF0C8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */; };
 		A72DFBDC2CDAA42E00AF0C8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A72DFBDB2CDAA42E00AF0C8A /* Assets.xcassets */; };
@@ -27,6 +37,16 @@
 		0971F5C9D282B1FA281C820F /* Pods-moviemate-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviemate-ios.release.xcconfig"; path = "Target Support Files/Pods-moviemate-ios/Pods-moviemate-ios.release.xcconfig"; sourceTree = "<group>"; };
 		29D031F686DC5808AA4EC3C0 /* Pods_moviemate_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moviemate_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DEED8B049CA55F706FE94B /* Pods-moviemate-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviemate-ios.debug.xcconfig"; path = "Target Support Files/Pods-moviemate-ios/Pods-moviemate-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		A72B41852CDCFAE900CAE5D1 /* WaitingPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPageView.swift; sourceTree = "<group>"; };
+		A72B41862CDCFAE900CAE5D1 /* WaitingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPageViewController.swift; sourceTree = "<group>"; };
+		A72B418A2CDCFB5200CAE5D1 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		A72B418B2CDCFB5200CAE5D1 /* ApiError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		A72B418C2CDCFB5200CAE5D1 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		A72B418D2CDCFB5200CAE5D1 /* PollingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollingManager.swift; sourceTree = "<group>"; };
+		A72B41932CDCFBB000CAE5D1 /* UIKeyboard+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKeyboard+SnapKit.swift"; sourceTree = "<group>"; };
+		A72B41952CDCFE3C00CAE5D1 /* LobbyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LobbyInfo.swift; sourceTree = "<group>"; };
+		A72B41962CDCFE3C00CAE5D1 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		A72B419A2CDCFE6200CAE5D1 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
 		A72DFBCF2CDAA42D00AF0C8A /* moviemate-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "moviemate-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +76,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A72B41872CDCFAE900CAE5D1 /* WaitingPage */ = {
+			isa = PBXGroup;
+			children = (
+				A72B41852CDCFAE900CAE5D1 /* WaitingPageView.swift */,
+				A72B41862CDCFAE900CAE5D1 /* WaitingPageViewController.swift */,
+			);
+			path = WaitingPage;
+			sourceTree = "<group>";
+		};
+		A72B418E2CDCFB5200CAE5D1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A72B418A2CDCFB5200CAE5D1 /* ApiClient.swift */,
+				A72B418B2CDCFB5200CAE5D1 /* ApiError.swift */,
+				A72B418C2CDCFB5200CAE5D1 /* AppState.swift */,
+				A72B418D2CDCFB5200CAE5D1 /* PollingManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A72B41972CDCFE3C00CAE5D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A72B41952CDCFE3C00CAE5D1 /* LobbyInfo.swift */,
+				A72B41962CDCFE3C00CAE5D1 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A72DFBC62CDAA42D00AF0C8A = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +126,9 @@
 		A72DFBD12CDAA42D00AF0C8A /* moviemate-ios */ = {
 			isa = PBXGroup;
 			children = (
+				A72B41972CDCFE3C00CAE5D1 /* Model */,
+				A72B418E2CDCFB5200CAE5D1 /* Networking */,
+				A72B41872CDCFAE900CAE5D1 /* WaitingPage */,
 				A72DFBD22CDAA42D00AF0C8A /* AppDelegate.swift */,
 				A72DFBD42CDAA42D00AF0C8A /* SceneDelegate.swift */,
 				A7A35E312CDBDD1C001C42B7 /* LobbyPage */,
@@ -103,6 +155,8 @@
 		A7A34BC42CDAA9D5001C42B7 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A72B41932CDCFBB000CAE5D1 /* UIKeyboard+SnapKit.swift */,
+				A72B419A2CDCFE6200CAE5D1 /* AlertController.swift */,
 				A7A34BC22CDAA9A4001C42B7 /* Utils.swift */,
 			);
 			path = Utils;
@@ -262,12 +316,22 @@
 				A7A34BC62CDAAAF0001C42B7 /* Router.swift in Sources */,
 				A7A35E322CDBDD1C001C42B7 /* LobbyPageView.swift in Sources */,
 				A72DFBD32CDAA42D00AF0C8A /* AppDelegate.swift in Sources */,
+				A72B419B2CDCFE6200CAE5D1 /* AlertController.swift in Sources */,
 				A7A35E342CDBDD1C001C42B7 /* LobbyPageViewModel.swift in Sources */,
 				A76FDF332CDAA8C100F0786B /* WelcomePageView.swift in Sources */,
 				A7A34BC32CDAA9A4001C42B7 /* Utils.swift in Sources */,
+				A72B418F2CDCFB5200CAE5D1 /* ApiClient.swift in Sources */,
+				A72B41902CDCFB5200CAE5D1 /* ApiError.swift in Sources */,
+				A72B41982CDCFE3C00CAE5D1 /* LobbyInfo.swift in Sources */,
+				A72B41882CDCFAE900CAE5D1 /* WaitingPageView.swift in Sources */,
 				A7A34BC82CDAAB03001C42B7 /* Page.swift in Sources */,
+				A72B41912CDCFB5200CAE5D1 /* AppState.swift in Sources */,
 				A76FDF2E2CDAA88900F0786B /* WelcomePageViewController.swift in Sources */,
+				A72B41992CDCFE3C00CAE5D1 /* Movie.swift in Sources */,
+				A72B41942CDCFBB000CAE5D1 /* UIKeyboard+SnapKit.swift in Sources */,
+				A72B41922CDCFB5200CAE5D1 /* PollingManager.swift in Sources */,
 				A76FDF312CDAA8A900F0786B /* WelcomePageViewModel.swift in Sources */,
+				A72B41892CDCFAE900CAE5D1 /* WaitingPageViewController.swift in Sources */,
 				A72DFBD52CDAA42D00AF0C8A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

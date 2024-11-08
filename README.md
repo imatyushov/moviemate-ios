@@ -38,7 +38,7 @@ iOS-приложение для выбора фильма для компани�
 # Презентация
 https://docs.google.com/presentation/d/1BF1rZZe5X0MjMT2s9wwvjVFb_E5W_osR/edit?usp=sharing&ouid=109217328439205395137&rtpof=true&sd=true
 # Видео-демо
-https://disk.yandex.ru/d/2hgxUALmLd4fIQ
+https://youtu.be/jM-Zu5Kno1s?si=3PFfDSUQukDqnFSh
 
 # Команда
 1. Белошицкий Денис Романович: тимлид + iOS-разработчик

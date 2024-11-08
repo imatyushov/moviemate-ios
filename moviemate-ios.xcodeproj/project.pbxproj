@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84DA6E4B2CDDEC0E00968287 /* result_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DA6E472CDDEC0E00968287 /* result_page.png */; };
+		84DA6E4C2CDDEC0E00968287 /* welcome_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DA6E482CDDEC0E00968287 /* welcome_page.png */; };
+		84DA6E4D2CDDEC0E00968287 /* choose_genre_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DA6E492CDDEC0E00968287 /* choose_genre_page.png */; };
+		84DA6E4E2CDDEC0E00968287 /* choose_movie_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 84DA6E4A2CDDEC0E00968287 /* choose_movie_page.png */; };
 		8D65B6B6E0AD590AEE4AFFA1 /* Pods_moviemate_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D031F686DC5808AA4EC3C0 /* Pods_moviemate_ios.framework */; };
 		A72B41882CDCFAE900CAE5D1 /* WaitingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41852CDCFAE900CAE5D1 /* WaitingPageView.swift */; };
 		A72B41892CDCFAE900CAE5D1 /* WaitingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72B41862CDCFAE900CAE5D1 /* WaitingPageViewController.swift */; };
@@ -48,6 +52,10 @@
 		0971F5C9D282B1FA281C820F /* Pods-moviemate-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviemate-ios.release.xcconfig"; path = "Target Support Files/Pods-moviemate-ios/Pods-moviemate-ios.release.xcconfig"; sourceTree = "<group>"; };
 		29D031F686DC5808AA4EC3C0 /* Pods_moviemate_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moviemate_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DEED8B049CA55F706FE94B /* Pods-moviemate-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moviemate-ios.debug.xcconfig"; path = "Target Support Files/Pods-moviemate-ios/Pods-moviemate-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		84DA6E472CDDEC0E00968287 /* result_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = result_page.png; path = ../../../Downloads/result_page.png; sourceTree = "<group>"; };
+		84DA6E482CDDEC0E00968287 /* welcome_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = welcome_page.png; path = ../../../Downloads/welcome_page.png; sourceTree = "<group>"; };
+		84DA6E492CDDEC0E00968287 /* choose_genre_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose_genre_page.png; path = ../../../Downloads/choose_genre_page.png; sourceTree = "<group>"; };
+		84DA6E4A2CDDEC0E00968287 /* choose_movie_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = choose_movie_page.png; path = ../../../Downloads/choose_movie_page.png; sourceTree = "<group>"; };
 		A72B41852CDCFAE900CAE5D1 /* WaitingPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPageView.swift; sourceTree = "<group>"; };
 		A72B41862CDCFAE900CAE5D1 /* WaitingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaitingPageViewController.swift; sourceTree = "<group>"; };
 		A72B418A2CDCFB5200CAE5D1 /* ApiClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
@@ -98,6 +106,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		84DA6E462CDDEBE200968287 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				84DA6E492CDDEC0E00968287 /* choose_genre_page.png */,
+				84DA6E4A2CDDEC0E00968287 /* choose_movie_page.png */,
+				84DA6E472CDDEC0E00968287 /* result_page.png */,
+				84DA6E482CDDEC0E00968287 /* welcome_page.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
 		A72B41872CDCFAE900CAE5D1 /* WaitingPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +190,7 @@
 		A72DFBC62CDAA42D00AF0C8A = {
 			isa = PBXGroup;
 			children = (
+				84DA6E462CDDEBE200968287 /* resources */,
 				A72DFBD12CDAA42D00AF0C8A /* moviemate-ios */,
 				A72DFBD02CDAA42D00AF0C8A /* Products */,
 				DBBA7645E24B716804DE724F /* Pods */,
@@ -323,8 +343,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA6E4E2CDDEC0E00968287 /* choose_movie_page.png in Resources */,
+				84DA6E4B2CDDEC0E00968287 /* result_page.png in Resources */,
 				A72DFBDC2CDAA42E00AF0C8A /* Assets.xcassets in Resources */,
+				84DA6E4D2CDDEC0E00968287 /* choose_genre_page.png in Resources */,
 				A72DFBDF2CDAA42E00AF0C8A /* Base in Resources */,
+				84DA6E4C2CDDEC0E00968287 /* welcome_page.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
